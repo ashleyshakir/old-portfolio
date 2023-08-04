@@ -25,6 +25,7 @@
   <body>
     <section class="hero">
       <nav>
+        <!-- social media icons on upper left of page -->
         <div class="social-media">
           <div>
             <a
@@ -84,15 +85,18 @@
             </a>
           </div>
         </div>
+        <!-- navigate to the following sections -->
         <ul id="nav-list">
           <li><a href="#about-me">about me</a></li>
           <li><a href="#projects">projects</a></li>
           <li><a href="#contact-me">contact me</a></li>
         </ul>
+        <!-- used to help with responsive design -->
         <button class="hamburger" id="hamburger">
           <i class="fas fa-bars"></i>
         </button>
       </nav>
+      <!-- The area you see first when clicking on my portfolio link -->
       <div class="hero-area">
         <div class="hero-text">
           <h1>Ashley Shakir</h1>
@@ -100,10 +104,12 @@
           <div class="button"><a href="#about-me">ABOUT ME</a></div>
         </div>
         <div class="hero-image">
-          <!-- <img class="hello" src="images/profile.jpeg" alt="picture of ashley"> -->
+          <!-- I would like to add something here to make the page stand out more -->
+          <!-- <img class="hello" src="" alt=""> -->
         </div>
       </div>
     </section>
+    <!-- about me section, will add skills and more detail later -->
     <section class="sub-section" id="about-me">
       <div class="info">
         <h2>about me</h2>
@@ -117,66 +123,51 @@
         Profile Picture"
       </div>
     </section>
+    <!-- project section, currently using placeholders for images and text -->
     <section class="sub-section-alternative" id="projects">
       <h2>projects</h2>
       <div class="project-container">
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="images/holder-image-one.jpeg"
-            alt="Project One Image"
-          />
-          <h3>Project 1</h3>
+        <div class="project-card project-card1">
+          <img src="images/holder-image-one.jpeg" alt="Project One Image" />
+          <h3 id="featured-project">Featured Project</h3>
           <p class="sub-text">
-            This is my project and some text about it. I enjoyed making it.
+            This is my featured project and some text about it. I enjoyed making
+            it.
           </p>
-          <hr />
-          <p class="sub-text"><a class="project-link">View Here</a></p>
+          <div>
+            <hr />
+            <p class="sub-text"><a class="project-link">View Here</a></p>
+          </div>
         </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="images/holder-image-two.jpeg"
-            alt="Project Two Image"
-          />
+        <div class="project-card project-card2">
+          <img src="images/holder-image-two.jpeg" alt="Project Two Image" />
           <h3>Project 2</h3>
           <p class="sub-text">
             This is my project and some text about it. I enjoyed making it.
           </p>
-          <hr />
-          <p class="sub-text"><a class="project-link">View Here</a></p>
+          <div>
+            <hr />
+            <p class="sub-text"><a class="project-link">View Here</a></p>
+          </div>
         </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="images/holder-image-three.jpeg"
-            alt="Project Three Image"
-          />
+        <div class="project-card project-card3">
+          <img src="images/holder-image-three.jpeg" alt="Project Three Image" />
           <h3>Project 3</h3>
           <p class="sub-text">
             This is my project and some text about it. I enjoyed making it.
           </p>
-          <hr />
-          <p class="sub-text"><a class="project-link">View Here</a></p>
-        </div>
-        <div class="project-card">
-          <img
-            class="project-image"
-            src="images/holder-image-four.jpeg"
-            alt="Project Four Image"
-          />
-          <h3>Project 4</h3>
-          <p class="sub-text">
-            This is my project and some text about it. I enjoyed making it.
-          </p>
-          <hr />
-          <p class="sub-text"><a class="project-link">View Here</a></p>
+          <div>
+            <hr />
+            <p class="sub-text"><a class="project-link">View Here</a></p>
+          </div>
         </div>
       </div>
     </section>
+    <!-- footer section showing email to contact me -->
     <footer id="contact-me">
       <h2 id="footer-font-color">contact me</h2>
       <p>ashleymshakir@gmail.com</p>
+      <!-- Display social media icons in footer -->
       <div class="social-media-bottom">
         <div>
           <a

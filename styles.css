@@ -45,6 +45,9 @@ h2{
 h3 {
     color: #f2ebe9;
 }
+#featured-project{
+    background-color: #de5499;
+}
 p{
     margin: 0;
 }
@@ -79,13 +82,13 @@ p{
 .button:hover {
     background-color: #de5499;
     color:#f2ebe9;
+
 }
 .button:active {
     background-color: #f2ebe9;
     color:#de5499;
 }
 .social-media{
-    /* padding-bottom: 100px; */
     margin-top: 10px;
 }
 .hello{
@@ -103,9 +106,10 @@ p{
     justify-content: space-between;
     padding: 80px
 }
+.info{
+    margin-right: 20px;
+}
 .sub-section-alternative {
-    display: flex;
-    flex-direction: column;
     padding: 80px;
 }
 
@@ -120,40 +124,57 @@ p{
 
 .project-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    align-items: center;
-    justify-items: center;
-}
-
-
-.project-card{
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
     justify-content: center;
-    align-items: center;
+    padding: 10px;
+}
+.project-card{
+    max-width: 100%;
+    padding: 10px;
     background-color: #e99f4c;
-    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    display: grid;
+    place-items: center;
 }
-.project-image{
-    margin-top: 25px;
-    margin-left: 6px;
+
+.project-card1{
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
+}
+.project-card2{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+.project-card3{
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+.project-card img{
+    max-width: 100%;
+    max-height: 100%;
     width: 300px;
     border-radius: 8px;
+}
+.project-card p{
+    /* margin-top: 10px; */
+    color: #f2ebe9;
+    font-size: 15;
+    text-align: center;
 }
 .project-link{
     text-decoration: none;
     color:#de5499;
 }
-hr{
-    width:300px;
+.project-card hr {
+    border: none;
+    height: 1px;
+    width: 200px;
+    background-color: #eddcd9;
 }
-.sub-text {
-    color: #f2ebe9;
-    font-size: 15;
-    text-align: center;
+.project-card h3 {
+    max-width: 100%;
 }
 a{
     text-decoration: none;
@@ -164,6 +185,8 @@ a{
 }
 .social-media-bottom{
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 .hamburger {
     display: none;
