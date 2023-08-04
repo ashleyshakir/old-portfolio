@@ -45,9 +45,6 @@ h2{
 h3 {
     color: #f2ebe9;
 }
-#featured-project{
-    background-color: #de5499;
-}
 p{
     margin: 0;
 }
@@ -80,9 +77,8 @@ p{
     margin-top: 20px;
 }
 .button:hover {
-    background-color: #de5499;
     color:#f2ebe9;
-
+    background-color: #de5499;
 }
 .button:active {
     background-color: #f2ebe9;
@@ -115,7 +111,9 @@ p{
 
 .headshot {
     width: 300px;
-    border-radius: 150px;
+    border-radius: 8px;
+    border: 2px solid #de5499;
+    padding: 10px;
 }
 .headshot-container{
     display: flex;
@@ -132,9 +130,8 @@ p{
 .project-card{
     max-width: 100%;
     padding: 10px;
-    background-color: #e99f4c;
+    border: 2px solid #e99f4c;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     display: grid;
     place-items: center;
 }
@@ -158,10 +155,11 @@ p{
     border-radius: 8px;
 }
 .project-card p{
-    /* margin-top: 10px; */
-    color: #f2ebe9;
-    font-size: 15;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #e99f4c;
+    font-size: 15px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .project-link{
     text-decoration: none;
@@ -171,9 +169,13 @@ p{
     border: none;
     height: 1px;
     width: 200px;
-    background-color: #eddcd9;
+    background-color: #e99f4c;
 }
 .project-card h3 {
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #e99f4c;
     max-width: 100%;
 }
 a{
