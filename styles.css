@@ -27,9 +27,6 @@ ul {
     justify-content: space-around;
     font-size: 20px;
 }
-/* ul.show {
-    display: block;
-} */
 li {
     text-decoration: none;
 }
@@ -231,7 +228,10 @@ a{
     }
     ul.show {
         display: block;
-
+    }
+    ul.show li{
+        padding: 10px;
+        font-size: 25px;
     }
     nav {
         display: flex;
