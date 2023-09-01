@@ -29,7 +29,7 @@ h1{
     margin-bottom: 15px;
 }
 #long-title{
-    font-size: 20px;
+    font-size: 25px;
 }
 h2{
     color: #264143;
@@ -302,6 +302,9 @@ a{
     }
     #mobile-img{
         display: none;
+    }
+    #long-text{
+        font-size: 12px;
     }
     .project-info{
         width: 240px;
