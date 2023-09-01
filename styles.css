@@ -170,7 +170,7 @@ a{
 .hamburger:focus{
     outline: 0;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .hamburger{
         display: block;
         border: 0;
@@ -233,14 +233,14 @@ a{
         align-items: center;
     }
     .headshot-container{
-        margin-top: 40px;
+        margin-top: 60px;
         align-self: center;
     }
     .info{
-        width: 400px;
+        width: 600px;
     }
     .skills{
-        width: 400px;
+        width: 600px;
     }
     .project-info .button{
         margin-left: 35px;
@@ -249,7 +249,7 @@ a{
 
 
 
-@media only screen and (min-width: 801px){
+@media only screen and (min-width: 1001px){
     .project-card{
         width: 550px;
         height: 400px;
@@ -277,8 +277,5 @@ a{
         display: flex;
         flex-direction: column;
     }
-
-
-
 }
 
