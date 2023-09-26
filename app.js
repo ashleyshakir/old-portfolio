@@ -12,3 +12,11 @@ aboutMeButton.addEventListener("mouseenter",function(){
 aboutMeButton.addEventListener("mouseleave",function(){
     aboutMeLink.style.color = "#de5499"
 })
+function checkScreenWidth() {
+    if (window.innerWidth > 780) {
+      navList.classList.remove('show');
+    }
+  }
+  window.addEventListener('resize', checkScreenWidth);
+
+  checkScreenWidth();
