@@ -108,7 +108,7 @@ h2{
 .hero-image {
     width: 80%;
     max-width: 220px;
-    padding-top: 60px; 
+    padding-top: 40px; 
   }
 
 .hero-image img{
@@ -137,7 +137,10 @@ p{
         max-width: 400px;
     }
     .hero-text{
-        padding-top: 100px;
+        padding-top: 120px;
+    }
+    .hero-image{
+        padding-top: 80px; 
     }
     #name{
         display: inline;
