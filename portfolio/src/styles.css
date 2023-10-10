@@ -1,3 +1,5 @@
+@import '~aos/dist/aos.css';
+
 html{
     line-height: 1.15;
 }
@@ -10,12 +12,18 @@ body {
     background-color: #FAF6F5;
     margin: 0;
   }
+  h1, h3, h2, h4{
+    font-family: "Lora",serif;
+    text-transform: lowercase;
+    letter-spacing: 0.25rem;
+    font-weight: lighter;
+  }
   .text-content p {
     font-size: 1rem;
   }
   img {
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
     display: block;
   }
   button{
@@ -39,4 +47,6 @@ body {
     color: #8c6a02;
     cursor: pointer;
   }
+  
+
 

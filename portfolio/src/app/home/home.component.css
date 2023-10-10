@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+.text-content{
+    width: 43%;
+    padding-right: 20px;
+  }
+h1{
+    font-size: 4.5rem;
+    position: relative;
+    left: -35%;
+    margin-bottom: 15px;
+  }
+h2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+header .img-content{
+    width: 45%;
+}
+.mainQuote{
+    padding: 80px 0;
+    text-align: center;
+  }

@@ -10,7 +10,7 @@
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     margin-left: 30px;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   a{
     text-decoration: none;
@@ -167,7 +167,7 @@ width: 80%;
 transition-delay: .375s;
 }
 .main-logo{
-    width: 60px;
+    width: 40px;
     transition: all 0.5s ease;
   }
   .main-logo img{
