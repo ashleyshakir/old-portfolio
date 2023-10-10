@@ -1,0 +1,37 @@
+<nav class="main-nav">
+  <div class="wrapper">
+    <a class="main-logo" routerLink="home">
+      <img src="assets/favicon.png" alt="Ashley's initials icon" />
+    </a>
+    <!-- button for mobile nav -->
+    <div class="mobile-nav">
+      <button class="nav-button" [class.open]="isOpen" (click)="toggleNav()">
+        <div aria-label="Click to open mobile nav" class="hamburger">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+        <div aria-label="Click to close the mobile nav" class="cross">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+      </button>
+    </div>
+    <nav class="nav-links">
+      <ul>
+        <li>
+          <a routerLink="home">Home</a>
+        </li>
+        <li>
+          <a routerLink="about">About</a>
+        </li>
+        <li>
+          <a routerLink="work">Work</a>
+        </li>
+        <li>
+          <a routerLink="contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</nav>
