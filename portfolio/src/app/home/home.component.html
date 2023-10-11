@@ -27,36 +27,13 @@
 <!-- projects section begins -->
 <section class="projects" id="work">
   <!-- wrapper begins -->
-  <div class="wrapper">
-    <h2>My Recent Work</h2>
-    <ul class="projectLinks" data-aos="fade-up" data-aos-duration="800">
-      <li>
-        <a href="./ticTacToe.html"
-          ><img
-            src="./assets/tic-tac-toe-project.png"
-            alt="Tic tace toe game shown on both iphone and mac book screens"
-        /></a>
-      </li>
-      <!-- <li>
-              <a href="./brandon.html"
-                ><img
-                  src="./assets/cropped2.png"
-                  alt="Choose your own riddle-culous adventure game logo"
-              /></a>
-            </li> -->
-      <li>
-        <a href="./photofiesta.html"
-          ><img src="./assets/photofiesta.png" alt="Photo Fiesta logo"
-        /></a>
-      </li>
-      <li>
-        <a href="./teammanagement.html"
-          ><img
-            src="./assets/team-management.png"
-            alt="Team Management RESTful API app"
-        /></a>
-      </li>
-    </ul>
+  <h2>My Recent Work</h2>
+  <div class="project-wrapper">
+    <div *ngFor="let project of projects" class="projectLinks" data-aos="fade-up" data-aos-duration="800">
+      <a [routerLink]="['/work', project.id]">
+        <img [src]="project.imageLogoUrl" alt="project image logo">
+      </a>
+    </div>
   </div>
   <!-- wrapper ends -->
 </section>

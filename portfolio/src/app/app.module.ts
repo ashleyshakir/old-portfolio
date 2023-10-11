@@ -9,7 +9,9 @@ import { WorkComponent } from './work/work.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
-
+import { ProjectComponent } from './project/project.component';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { ProjectDetailComponentRoutingModule } from './project-detail/project-detail-routing.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +20,14 @@ import { FooterComponent } from './footer/footer.component';
     WorkComponent,
     ContactComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectComponent,
+    ProjectDetailComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProjectDetailComponentRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

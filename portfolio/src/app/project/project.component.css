@@ -1,0 +1,7 @@
+.project-preview{
+    display: flex;
+    flex-direction: column;
+}
+.img-content{
+    max-width: 300px;
+}

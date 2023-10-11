@@ -1,0 +1,25 @@
+<body>
+    <section class="projectPage">
+        <header>
+            <div class="text-content" data-aos="fade-right" data-aos-duration="1000">
+                <h2> {{project.software}}</h2>
+                <h1>{{project.title}}</h1>
+                <p>{{project.paragraph1}}</p>
+                <br>
+                <p>{{project.paragraph2}}</p>
+                <div class="links">
+                   <a class="link" target="_blank" href="{{project.githubUrl}}">View Code</a>
+                    <a *ngIf="project.liveUrl" href="{{project.liveUrl}}" target="_blank" class="link"> View Live </a>
+                </div>
+            </div>
+            <div class="img-content" data-aos="fade-left" data-aos-duration="1000">
+                <img src="{{project.imageLogoUrl}}" alt="project image logo">
+            </div>
+        </header>
+        <div class="mockups">
+            <div *ngFor="let mockup of project.mockupImageUrls" class="gridContainer" data-aos="fade-up" data-aos-duration="1000">
+                <img src="{{mockup}}" alt="mockup image">
+            </div>
+        </div>
+    </section>
+</body>

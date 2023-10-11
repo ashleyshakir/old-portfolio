@@ -1,71 +1,28 @@
-.projectPage header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .projectPage header .text-content {
-    width: 40%;
-    padding-top: 20px;
-    margin-left: 10%;
-  }
-
-  .projectPage h1 {
-    font-size: 4rem;
+h1 {
+    font-size: 3rem;
     padding: 20px 0 30px;
     margin: 0;
     line-height: 1.2;
+    margin-left: 10%;
   }
-  .projectPage h2 {
-    font-family: "Open Sans", sans-serif;
-    text-transform: uppercase;
-    font-style: italic;
-    font-size: 1rem;
-    line-height: 1.5;
-    font-weight: 300;
-    margin: 0;
+.projectPage{
+    display: flex;
+    justify-content: center;
   }
-  .projectPage header .img-content {
-    padding-top: 20px;
-    width: 45%;
-  }
-  .projectPage header p,
-.projectPage header .links {
-  margin: 0;
-  margin-left: 10%;
-  font-size: smaller;
+.project-card{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
 }
-
-.projectPage header .links {
-  margin-top: 20px;
-}
-
-.projectPage header .links .link:first-of-type {
-  margin-right: 15px;
-}
-  .mockups {
-    margin: 60px 0;
+.project-card a {
+    transition: all 0.5s ease;
+    display: inline-block;
+    padding: 25px;
   }
-  .mockups .gridContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-  }
-  .gridContainer img{
-    max-width: 100%;
-  }
-  .endpoints img{
-    max-width: 60%;
-    margin: 0 auto;
-  }
-  #photo-fiesta img{
-    margin-left: 60px;
-    width: 75%;
-  }
-  .teamManagementApi img{
-    margin-left: 60px;
-    width: 75%;
+  
+  .project-card a:hover, .project-card a:focus {
+    transform: scale(0.95);
+    cursor: pointer;
   }
   a{
     text-decoration: none;
@@ -77,7 +34,4 @@
   a:hover {
     color: #8c6a02; /* Color on hover */
   }
-  ul {
-    list-style: none;
-    padding-right: 40px;
-  }
+ 

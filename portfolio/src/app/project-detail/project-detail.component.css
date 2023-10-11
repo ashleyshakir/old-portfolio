@@ -1,0 +1,60 @@
+.projectPage header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  .projectPage header .text-content {
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 10%;
+  }
+  .projectPage header .img-content {
+    padding-top: 20px;
+    width: 500px;
+  }
+  .projectPage h1 {
+    font-size: 3.7rem;
+    padding: 20px 0 30px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .projectPage h2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+  }
+  .projectPage header p,
+  .projectPage header .links {
+    margin: 0;
+    margin-left: 10%;
+    font-size: smaller;
+  }
+  .projectPage header .links {
+    margin-top: 20px;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    padding-right: 20px;
+  }
+  a:hover {
+    color: #8c6a02; /* Color on hover */
+  }
+  .mockups .gridContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .gridContainer img{
+    max-width: 60%;
+  }
