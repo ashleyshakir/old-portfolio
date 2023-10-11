@@ -1,0 +1,86 @@
+.contact {
+    padding: 50px 0 60px;
+    margin: 0 auto;
+    width: 850px;
+  }
+  .wrapper {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contact h1 {
+    font-size: 4rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact p{
+    font-size: 1rem;
+  }
+  a{
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  a:hover {
+    color: #8c6a02; /* Color on hover */
+  }
+  .contactForm {
+    width: 850px;
+    margin: 0 auto;
+  }
+  
+  .contactForm .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .contactForm label {
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #2C2C2C;
+    padding: 10px;
+  }
+  
+  .contactForm input:focus,
+  .contactForm textarea:focus {
+    border-color: #c3a764;
+  }
+  
+  .contactForm input {
+    height: 30px;
+  }
+  
+  .contactForm .names {
+    columns: 2;
+    column-gap: 50px;
+    width: 100%;
+  }
+  
+  .contactForm .names label {
+    display: inline-block;
+  }
+  
+  .contactForm textarea {
+    resize: none;
+    height: 150px;
+  }
+  
+  .contactForm button {
+    align-self: center;
+    margin: 20px 0 80px;
+    transition: all 0.5s ease;
+  }
+  
+  .contactForm button:hover, .contactForm button:focus {
+    background-color: #DBBE95;
+    cursor: pointer;
+  }

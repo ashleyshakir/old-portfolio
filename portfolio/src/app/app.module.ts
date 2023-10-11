@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProjectComponent } from './project/project.component';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { ProjectDetailComponentRoutingModule } from './project-detail/project-detail-routing.module';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { ProjectDetailComponentRoutingModule } from './project-detail/project-de
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ProjectDetailComponentRoutingModule
+    ProjectDetailComponentRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,82 @@
-<p>contact works!</p>
+<!-- header begins -->
+<header class="contact">
+  <!-- wrapper begins -->
+  <div class="wrapper">
+    <h1>Let's connect</h1>
+    <p>
+      Feel free to reach out if you're interested in working together! You can
+      also email me at
+      <a class="externalLink" href="mailto:ashleymshakir@gmail.com"
+        >ashleymshakir@gmail.com</a
+      >. All fields are required!
+    </p>
+  </div>
+  <!-- wrapper ends -->
+</header>
+<!-- header ends -->
+<!-- main begins -->
+<main>
+  <!-- contact form begins -->
+  <form
+    class="contactForm"
+    id="contactForm"
+    (ngSubmit)="sendMessage()"
+    data-aos="fade-up" data-aos-duration="1000" >
+    <!-- wrapper begins -->
+    <div class="wrapper">
+      <div class="names">
+        <label for="firstName">First name</label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          [(ngModel)]="contact.firstName"
+          required
+        />
+
+        <label for="lastName">Last name</label>
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          [(ngModel)]="contact.lastName"
+          required
+        />
+      </div>
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        [(ngModel)]="contact.email"
+        required
+      />
+
+      <label for="subject">Subject</label>
+      <input
+        type="text"
+        name="subject"
+        id="subject"
+        [(ngModel)]="contact.subject"
+        required
+      />
+
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        [(ngModel)]="contact.message"
+        required
+      ></textarea>
+
+      <button type="submit">Send</button>
+    </div>
+    <!-- wrapper ends -->
+  </form>
+  <!-- contact form ends -->
+</main>
+
+<!-- main ends -->
