@@ -1,0 +1,77 @@
+footer {
+    background-color: #DBBE95;
+    color: #F3F6F4;
+    padding: 40px 0 20px;
+  }
+  .flexContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .footer-left{
+    display: flex;
+    align-items: center;
+  }
+.main-logo img {
+    width: 40px;
+    padding-left: 40px;
+    transition: all 0.5s ease;
+    filter: invert(100%);
+  }
+  .main-logo img:hover, .main-logo img:focus {
+    filter: none;
+    cursor: pointer;
+  }
+  .footerNav {
+    width: 35%;
+  }
+  .footerNav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  
+  .footerNav ul li {
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    margin: 0 10px;
+    font-size: 0.8rem;
+  }
+  
+  .footerNav ul a {
+    transition: all 0.5s ease;
+  }
+  
+  .footerNav ul a:hover, .footerNav ul a:focus {
+    color: #2C2C2C;
+    cursor: pointer;
+  }
+  .socialIcons {
+    display: flex;
+    margin-right: 40px;
+  }
+  
+  .socialIcons li {
+    margin-right: 18px;
+    list-style-type: none;
+  }
+  
+  .socialIcons a {
+    transition: all 0.5s ease;
+  }
+  
+  .socialIcons a:hover, .socialIcons a:focus {
+    color: #2C2C2C;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  a:hover {
+    color: #8c6a02; /* Color on hover */
+  }

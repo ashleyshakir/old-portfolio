@@ -12,6 +12,14 @@ body {
     background-color: #FAF6F5;
     margin: 0;
   }
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   h1, h3, h2, h4{
     font-family: "Lora",serif;
     text-transform: lowercase;
@@ -23,7 +31,7 @@ body {
   }
   img {
     max-width: 100%;
-    /* height: auto; */
+    height: auto;
     display: block;
   }
   button{

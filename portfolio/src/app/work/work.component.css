@@ -1,0 +1,83 @@
+.projectPage header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .projectPage header .text-content {
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 10%;
+  }
+
+  .projectPage h1 {
+    font-size: 4rem;
+    padding: 20px 0 30px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  .projectPage h2 {
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 300;
+    margin: 0;
+  }
+  .projectPage header .img-content {
+    padding-top: 20px;
+    width: 45%;
+  }
+  .projectPage header p,
+.projectPage header .links {
+  margin: 0;
+  margin-left: 10%;
+  font-size: smaller;
+}
+
+.projectPage header .links {
+  margin-top: 20px;
+}
+
+.projectPage header .links .link:first-of-type {
+  margin-right: 15px;
+}
+  .mockups {
+    margin: 60px 0;
+  }
+  .mockups .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .gridContainer img{
+    max-width: 100%;
+  }
+  .endpoints img{
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  #photo-fiesta img{
+    margin-left: 60px;
+    width: 75%;
+  }
+  .teamManagementApi img{
+    margin-left: 60px;
+    width: 75%;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  a:hover {
+    color: #8c6a02; /* Color on hover */
+  }
+  ul {
+    list-style: none;
+    padding-right: 40px;
+  }

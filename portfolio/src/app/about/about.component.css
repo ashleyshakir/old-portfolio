@@ -1,0 +1,57 @@
+.text-content{
+    width: 45%;
+    padding-left: 90px;
+  }
+  h1{
+    font-size: 4rem;
+    position: relative;
+    left: -10%;
+    margin-bottom: 15px;
+  }
+  header .img-content{
+    width: 40%;
+}
+header {
+    justify-content: flex-start;
+}
+a{
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  a:hover {
+    color: #8c6a02; /* Color on hover */
+  }
+  .skillsSection {
+    padding: 100px 0;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skillsSection .wrapper {
+    width: 65%;
+  }
+  .skillsSection h2 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+  }
+  .skills {
+    columns: 4;
+    column-gap: 80px;
+  }
+  .skills li {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    break-inside: avoid;
+    background-color: #F4EBE9;
+    color: #2C2C2C;
+    text-align: center;
+    width: 135px;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding: 10px;
+    list-style-type: none;
+  }
+
