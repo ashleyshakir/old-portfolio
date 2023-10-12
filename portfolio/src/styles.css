@@ -55,13 +55,6 @@ body {
     color: #8c6a02;
     cursor: pointer;
   }
-  /* Fallback styles for AOS animations on screens <= 840px */
-@media (max-width: 840px) {
-  [data-aos] {
-    opacity: 1 !important; 
-    transform: none !important;
-  }
-}
 
 
 
