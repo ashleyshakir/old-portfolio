@@ -58,3 +58,63 @@
   .gridContainer img{
     max-width: 60%;
   }
+  @media (max-width: 1110px) {
+    .projectPage header {
+      padding-top: 20px;
+    }
+    .projectPage header .img-content {
+      padding-top: 20px;
+      width: 400px;
+    }
+    .projectPage h1 {
+      font-size: 3rem;
+    }
+  }
+  @media (max-width: 940px) {
+    .projectPage header {
+      flex-direction: column;
+      align-items: center;
+    }
+    .projectPage header .img-content {
+      width: 70%;
+      margin-right: 60px;
+    }
+    .projectPage h1 {
+      font-size: 4rem;
+    }
+    .projectPage header .text-content {
+      margin: 80px 0 60px;
+      width: 70%;
+      font-size: 1.8rem;
+    }
+    .gridContainer img{
+      max-width: 75%;
+    }
+    .mockups .gridContainer {
+      margin-right: 60px;
+    }
+  }
+  @media (max-width: 740px) {
+    .projectPage header .text-content {
+      margin: 80px 0 60px;
+      width: 80%;
+    }
+    .projectPage header .img-content {
+      width: 80%;
+      margin-right: 30px;
+    }
+    .projectPage h1 {
+      font-size: 4rem;
+    }
+    .gridContainer img{
+      max-width: 85%;
+    }
+    .mockups .gridContainer {
+      margin-right: 30px;
+    }
+  }
+  @media (max-width: 600px) {
+    .projectPage header .text-content{
+      font-size: 1rem;
+    }
+  }

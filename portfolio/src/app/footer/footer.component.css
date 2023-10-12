@@ -75,3 +75,34 @@ footer {
   a:hover {
     color: #8c6a02; /* Color on hover */
   }
+
+  @media (max-width: 1110px) {
+    .footerNav{
+      width: 70%;
+    }
+  }
+  @media (max-width: 840px) {
+    footer .main-logo {
+      padding: 10px;
+    }
+    .flexContent {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .footerNav ul {
+      margin: 20px 0 30px;
+      flex-direction: column;
+    }
+    .footerNav ul li {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+    .footerNav ul a {
+      padding: 10px;
+    }
+    .footer-left{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }

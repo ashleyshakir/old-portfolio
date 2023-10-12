@@ -17,7 +17,7 @@
         </div>
       </button>
     </div>
-    <nav class="nav-links">
+    <nav class="nav-links" [class.show]="isOpen" (click)="toggleNav()">
       <ul>
         <li>
           <a routerLink="home">Home</a>

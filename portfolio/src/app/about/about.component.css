@@ -2,13 +2,13 @@
     width: 45%;
     padding-left: 90px;
   }
-  h1{
+h1{
     font-size: 4rem;
     position: relative;
     left: -10%;
     margin-bottom: 15px;
-  }
-  header .img-content{
+}
+header .img-content{
     width: 40%;
 }
 header {
@@ -43,7 +43,6 @@ a{
   }
   .skills li {
     margin-bottom: 20px;
-    font-size: 1.2rem;
     break-inside: avoid;
     background-color: #F4EBE9;
     color: #2C2C2C;
@@ -54,4 +53,63 @@ a{
     padding: 10px;
     list-style-type: none;
   }
+  @media (max-width: 840px) {
+    header .img-content {
+      width: 50%;
+    }
+    header .text-content {
+      width: 60%;
+      margin-left: 5%;
+    }
+    .skills {
+      columns: 3;
+      column-gap: 80px;
+    }
+    h1{
+      font-size: 3rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 740px) {
+    header .img-content {
+      width: 65%;
+    }
+    header .text-content {
+      width: 90%;
+      padding-left: 40px;
+      padding-right: 50px;
+    }
 
+    .skills {
+      columns: 2;
+      column-gap: 80px;
+    }
+
+
+  }
+  @media (max-width: 600px) {
+    header .img-content {
+      width: 100%;
+    }
+    .skillsSection h2 {
+      font-size: 3rem;
+      margin-left: 0;
+    }
+    .skillsSection{
+      justify-content: flex-start;
+      margin-left: 50px;
+    }
+    .skills li {
+      font-size: 1rem;
+      width: 110px;
+      border-radius: 4px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .skills li {
+      width: 90px;
+    }
+  }
