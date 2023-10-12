@@ -84,3 +84,20 @@
     background-color: #DBBE95;
     cursor: pointer;
   }
+  @media (max-width: 840px) {
+    .contact {
+      width: 100%;
+    }
+    .contactForm {
+      width: 100%;
+    }
+  }
+  @media (max-width: 600px) {
+  .contact h1 {
+    font-size: 4.5rem;
+  }
+  .contactForm .names {
+    columns: 1;
+    column-gap: 20px;
+  }
+}

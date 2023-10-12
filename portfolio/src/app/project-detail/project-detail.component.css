@@ -117,4 +117,7 @@
     .projectPage header .text-content{
       font-size: 1rem;
     }
+    .projectPage h1 {
+      font-size: 3.4rem;
+    }
   }
