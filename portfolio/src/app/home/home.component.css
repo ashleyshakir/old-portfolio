@@ -45,6 +45,7 @@ h2 {
   .project-wrapper{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
   .projectLinks a {
     margin-bottom: 20px;
